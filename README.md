@@ -1,6 +1,6 @@
 # xv6 - an OS consisting of a stripped down version of Unix
 
-### Changes:
+### Changes made to original version:
 #### System Calls -
 * Extended the current xv6 process implementation to maintain an exit status. Stores the exit status of the terminated process in the corresponding structure.
 * The system call ```wait()``` prevents the current process from executing until the child processes are terminated. It returns the terminated child's exit status through the status that is stores. Returns the PID of the child that is terminated.
